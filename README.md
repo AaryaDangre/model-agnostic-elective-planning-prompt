@@ -68,6 +68,43 @@ This project follows **semantic versioning**:
 
 ---
 
+## 📌 Example Usage
+
+**Input provided to the AI:**
+- Student year: Second Year
+- Branch: Artificial Intelligence & Data Science
+- Uploaded documents:
+  - Official syllabus PDF for Image Processing
+  - Official syllabus PDF for Data Analytics and Machine Learning
+
+**Prompt used:**
+- `elective-planning-prompt_v1.yaml`
+
+**Expected output:**
+- A side-by-side comparison table covering:
+  - Syllabus-verified learning outcomes
+  - Difficulty level
+  - Estimated hours per week
+  - Coding / technical skills required
+  - Resume-safe skills after completion
+  - Internship and industry relevance
+
+⚠️ Topics not explicitly mentioned in the syllabus are marked as *Not guaranteed*.
+
+---
+
+## ⚠️ Common Mistakes to Avoid
+
+- Relying on subject names instead of syllabus content  
+- Expecting advanced topics not explicitly listed in the syllabus  
+- Using marketing-style descriptions instead of verified outcomes  
+- Treating difficulty or workload estimates as exact values  
+- Skipping syllabus PDFs and relying only on opinions  
+
+This prompt prioritizes **accuracy and verification** over optimistic assumptions.
+
+---
+
 ## ⚠️ Disclaimer
 
 This prompt assists decision-making but does not replace:
