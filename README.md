@@ -48,13 +48,26 @@ It avoids assumptions, speculation, and marketing-style advice.
 | `README.md` | Usage guide and documentation |
 
 ---
-
 ## 🚀 How to Use
 
-1. Upload or paste the syllabus PDF into your AI tool
-2. Paste the contents of `prompt.yaml`
-3. Ask the AI to analyze your electives
-4. Review the table-based comparison and recommendations
+1. Upload the official syllabus PDF(s) for the electives you are considering.
+2. Paste the contents of `elective-planning-prompt_v1.yaml` into your AI tool.
+3. Copy, edit, and run the example prompt below:
+
+   ```text
+   I am a [year] [branch] student.
+   I have attached the official syllabus PDFs for the available electives.
+
+   Compare electives using syllabus-verified learning outcomes, difficulty level,
+   weekly workload, technical skills involved, and resume relevance.
+   Highlight uncertainty and assumptions.
+
+---
+
+## 🧠 Rule to remember (useful for future READMEs)
+
+**If the user is expected to copy and run it → use a code block.**  
+*Never italics. Never quotes.*
 
 ---
 
